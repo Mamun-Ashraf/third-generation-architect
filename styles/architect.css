@@ -141,8 +141,66 @@ Styles of features section
 }
 
 /* --------------------------
-Styles of navBar
+Styles of special features section
 --------------------------- */
+
+.special-feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-feature-content {
+    width: 40%;
+    margin-top: 1.89vw;
+}
+
+.special-feature-content .title {
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.special-feature-content .sub-title,
+.description {
+    margin-bottom: 10px;
+}
+
+.feature-card {
+    border-radius: 5px;
+    box-shadow: 0 10px 8px #d1d1d1;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.special-feature-picture {
+    width: 50%;
+}
+
+.special-feature-picture img {
+    width: 100%;
+}
+
+.experience {
+    background-color: #FF900E;
+    padding: 2vw 3vw;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    bottom: 6.31vw;
+    left: -4.73vw;
+}
+
+.year {
+    font-size: 4.1vw;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.experience-year {
+    font-size: 1.58vw;
+    font-weight: 500;
+}
 
 /* --------------------------
 Styles of navBar
@@ -195,6 +253,19 @@ Responsive Styles for small device
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
+    }
+
+    .special-feature {
+        flex-direction: column;
+    }
+
+    .special-feature-content,
+    .special-feature-picture {
+        width: 100%;
+    }
+
+    .special-feature-picture {
+        margin-bottom: 5vw;
     }
 
 }
