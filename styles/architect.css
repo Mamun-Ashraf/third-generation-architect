@@ -1,0 +1,13 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ----------------
+Common styles
+----------------- */
+
+body {
+    max-width: 1584px;
+    margin-top: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
