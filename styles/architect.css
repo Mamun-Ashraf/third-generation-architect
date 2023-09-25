@@ -97,7 +97,7 @@ Styles of banner
     color: #131313;
 }
 
-.description {
+.banner-content .description {
     margin-bottom: 1.89vw;
 }
 
@@ -130,6 +130,10 @@ Styles of features section
 
 .features-exploring {
     width: 40%;
+}
+
+.features-exploring .description {
+    margin-bottom: 1.89vw;
 }
 
 .special-word-quick {
@@ -365,8 +369,4 @@ Responsive Styles for medium device
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
     }
-}
-
-.hide {
-    display: none;
 }
