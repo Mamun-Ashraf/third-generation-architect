@@ -229,8 +229,20 @@ Styles of some fact section
 }
 
 /* --------------------------
-Styles of navBar
+Styles of our sponsors section
 --------------------------- */
+
+.sponsors-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.15vw;
+}
+
+.sponsors-picture {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* --------------------------
 Styles of navBar
@@ -301,6 +313,18 @@ Responsive Styles for small device
         height: 120px;
     }
 
+    .sponsors-content {
+        text-align: left;
+        justify-content: left;
+    }
+
+    .sponsors-picture {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-content: center;
+    }
+
 }
 
 /* --------------------------
@@ -321,6 +345,17 @@ Responsive Styles for medium device
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
+    }
+
+    .sponsors-content {
+        text-align: left;
+        justify-content: left;
+    }
+
+    .sponsors-picture {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
     }
 }
 
