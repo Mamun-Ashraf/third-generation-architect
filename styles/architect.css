@@ -11,3 +11,144 @@ body {
     margin-top: 0 auto;
     font-family: 'Work Sans', sans-serif;
 }
+
+section {
+    margin-top: 8.2vw;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-size: 1.25vw;
+    padding: 20px 24px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 2.84vw;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 1.5vw;
+}
+
+.sub-title {
+    font-size: 1.25vw;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #727272;
+    font-size: 1vw;
+}
+
+/* --------------------------
+Styles of header section
+--------------------------- */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 3.16vw 15.15vw;
+}
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.89vw;
+    list-style: none;
+    font-size: 1.14vw;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* --------------------------
+Styles of banner
+--------------------------- */
+
+.banner-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+    color: #131313;
+}
+
+.description {
+    margin-bottom: 1.89vw;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 1.89vw;
+}
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+/* --------------------------
+Styles of navBar
+--------------------------- */
+
+/* --------------------------
+Responsive Styles for small device
+--------------------------- */
+
+@media only screen and (max-width:688px) {
+    .title {
+        font-size: 3vw;
+    }
+
+    .sub-title {
+        font-size: 2.5vw;
+    }
+
+    .description {
+        font-size: 2vw;
+    }
+
+    .btn-primary {
+        font-size: 2.5vw;
+    }
+
+    .nav-links {
+        font-size: 2vw;
+    }
+
+}
+
+/* --------------------------
+Responsive Styles for medium device
+--------------------------- */
